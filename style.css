@@ -1,0 +1,59 @@
+
+.article-container{
+	
+}
+
+.article-container:hover .image-child{
+	-webkit-transform: scale(1.10);
+    transform: scale(1.10);
+    transition: transform .9s ease-in-out;
+    overflow: hidden;
+}
+.image-container{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+  border-radius: 5px;
+}
+.image-child{
+	/*Fit inside parent div container*/
+	width: 100%;
+	height: 150px;
+	border-radius: 5px;
+	display: block;
+}
+.plain-anchor{
+	text-decoration: none;
+}
+.title-container-relative{
+	background-color: #ff000066;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    bottom: 42px;
+}
+
+.mario-red{
+	background-color:#e600009e;
+}
+.luigi-green{
+	background-color:#01a7009e;
+}
+.yoshi-green{
+	background-color:#0180009e;
+}
+
+.article-title{
+	color: white;
+	font-weight: bold;
+	margin: 0;
+}
+
+.article-title:hover{
+	text-decoration: underline;
+}
+
+
+
